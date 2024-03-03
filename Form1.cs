@@ -19,8 +19,7 @@ namespace tpmodul3KPL
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String output = textBox1.Text;
-            label4.Text = "Halo " + output + "!";
+            label4.Text = "Halo " + textBox1.Text + "!";
             textBox1.Text = "";
         }
 
